@@ -146,7 +146,17 @@ nav .profile-link a {
 }
 
 .blogs-main-new-title {
-font-size: 2rem;
+    font-size: 2rem;
+    text-align: center;
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+    border-bottom: .1rem solid #CDD2DA;
+}
+
+.blogs-main-new .blogs-main-new-title {
+    border: 0;
+    margin: 0;
+    text-align: start;
 }
 
 .blogs-news-img-container {
@@ -202,9 +212,7 @@ font-size: 2rem;
 }
 
 .blogs-posts-container h2 {
-    text-align: center;
-    margin: 2rem 0;
-    border-bottom: .1rem solid #CDD2DA;
+    
 }
 
 .post-container {
@@ -238,4 +246,67 @@ footer p {
     font-size: 2rem;
     color: white;
     text-align: center;
+}
+
+.blogs-img-hover-container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.hover-header {
+    width: 100%;
+}
+
+.blog-main-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.blog-main-container .blogs-main-new-title {
+    text-align: start;
+}
+
+.blog-main-title {
+    font-size: 3rem;
+    margin: 3rem 0;
+}
+
+.blog-main-container p {
+    font-size: 1.5rem;
+}
+
+.blog-main-tag-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #E6E9ED;
+    margin-top: 4rem;
+    padding: 5% 8%;
+}
+
+.blog-main-tag-container .tag-container {
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+
+.blog-main-tag-container .tag-container img {
+    width: 20%;
+}
+
+.blog-main-tag-container .tag-container div {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.blog-main-tag-container .tag-container h3 {
+    font-size: 1.5rem;
+    font-weight: normal;
+    align-self: flex-start;
+    margin-bottom: 1rem;
+    border-bottom: .1rem solid black;
+}
+
+.blog-main-tag-container .tag-container p {
+    font-size: 1.5rem;
 }
